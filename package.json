@@ -1,0 +1,31 @@
+{
+  "name": "discjsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabee12/DiscJSI.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "node",
+    "VoIP"
+  ],
+  "author": "Gabriel Echeverria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabee12/DiscJSI/issues"
+  },
+  "homepage": "https://github.com/gabee12/DiscJSI#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
