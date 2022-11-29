@@ -1,8 +1,8 @@
-import { Client } from "discord.js"
-import {} from "../config.json"
+import { Client, GatewayIntentBits, Events } from 'discord.js';
 
-(async () => {
-    const client = new Client();
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-    await client.login()
-})();
+client.once(Events.ClientReady, c => {
+    console.log(`Ready! Logged in as ${c.user.tag}`);
+
+})
